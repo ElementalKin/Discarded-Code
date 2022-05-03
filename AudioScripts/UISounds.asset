@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7ec981bf6da1b43968d092a862b477, type: 3}
+  m_Name: UISounds
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Player Death
+    clip: {fileID: 8300000, guid: b0e8bf5ded6c1014d892cac33b0d7087, type: 3}
+    volume: 0.3
+    pitchMinRange: 0.9
+    pitchMaxRange: 1.1
+  - name: Enemy Death
+    clip: {fileID: 8300000, guid: 44fa08ed8f30a304cb61c8387c58fb7b, type: 3}
+    volume: 0.1
+    pitchMinRange: 0.9
+    pitchMaxRange: 1.1
+  AudioClipCollection:
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitchMinRange: 0
+    pitchMaxRange: 0
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitchMinRange: 0
+    pitchMaxRange: 0

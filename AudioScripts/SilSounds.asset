@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7ec981bf6da1b43968d092a862b477, type: 3}
+  m_Name: SilSounds
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Sil On Hover
+    clip: {fileID: 8300000, guid: a7ce950d12cad4e499cb00a68eabf44b, type: 3}
+    volume: 0.15
+    loop: 0
+    pitchMinRange: 0.8
+    pitchMaxRange: 1.2
+    sfxDelay: 0
+  - name: Sil On Click
+    clip: {fileID: 8300000, guid: c7174ceec5f8daf429591d8d255ac4ab, type: 3}
+    volume: 1
+    loop: 0
+    pitchMinRange: 1
+    pitchMaxRange: 1
+    sfxDelay: 0
+  AudioClipCollection: []

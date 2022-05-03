@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7ec981bf6da1b43968d092a862b477, type: 3}
+  m_Name: DeckSounds
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Deck Shuffle
+    clip: {fileID: 8300000, guid: c6ed8e21032484e479f4d6c33412b7cd, type: 3}
+    volume: 0.8
+    sfxDelay: 0
+  - name: Draw Card
+    clip: {fileID: 8300000, guid: c871a0e1964fa904da32196af907cb80, type: 3}
+    volume: 0.8
+    sfxDelay: 0
+  - name: Draw Cards
+    clip: {fileID: 8300000, guid: 7ef9e061e87c07b429d77ff9d7c9682f, type: 3}
+    volume: 0.8
+    sfxDelay: 0
+  - name: Discard Card
+    clip: {fileID: 8300000, guid: 5d8139e0ea5282947b53bfe390923d95, type: 3}
+    volume: 0.8
+    sfxDelay: 0
+  - name: Abandon Card
+    clip: {fileID: 8300000, guid: ff7737c0e718de2499410101dc4faa32, type: 3}
+    volume: 0.8
+    sfxDelay: 0
+  - name: Biome Complete Basement
+    clip: {fileID: 8300000, guid: 6cf347de420c30b4e914fb2de3282a1a, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Biome Complete Bedroom
+    clip: {fileID: 8300000, guid: 8de17ab82c8445f4689525ccb54ca1be, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Biome Complete Boss
+    clip: {fileID: 8300000, guid: 8de17ab82c8445f4689525ccb54ca1be, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Player Death
+    clip: {fileID: 8300000, guid: b0e8bf5ded6c1014d892cac33b0d7087, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Enemy Death
+    clip: {fileID: 8300000, guid: 44fa08ed8f30a304cb61c8387c58fb7b, type: 3}
+    volume: 1
+    sfxDelay: 0
+  AudioClipCollection: []

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7ec981bf6da1b43968d092a862b477, type: 3}
+  m_Name: vfxSounds
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Potential Status
+    clip: {fileID: 8300000, guid: c671303905d3f3d4ba20601865b15def, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Dull Status
+    clip: {fileID: 8300000, guid: 3f3f3b1c561c31249867d8b68c106bcb, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Squeeze Status
+    clip: {fileID: 8300000, guid: 2ad7973726d700e409791598c02573f6, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Fragile Status
+    clip: {fileID: 8300000, guid: 47f69b3c04affb645a226e40249a18c2, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Reinforced Status
+    clip: {fileID: 8300000, guid: 7ccdf8106d6c3664f8f775fd2e37fb7a, type: 3}
+    volume: 1
+    sfxDelay: 0
+  - name: Revenge Status
+    clip: {fileID: 8300000, guid: 282ec3a6d78dbd145953b87fa0305f1f, type: 3}
+    volume: 1
+    sfxDelay: 0
+  AudioClipCollection: []
